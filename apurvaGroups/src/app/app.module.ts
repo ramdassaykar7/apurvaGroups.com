@@ -8,15 +8,18 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { SliderComponent } from './main/slider/slider.component';
 import { IntroComponent } from './main/intro/intro.component';
-import { CardsComponent } from './main/cards/cards.component';
-import { GallaryComponent } from './main/gallary/gallary.component';
+import { ProductComponent } from './main/product/product.component';
+import { AboutusComponent } from './main/aboutus/aboutus.component';
 
 
 const appRoutes: Routes=[
   { path: 'app-main', component: MainComponent },
   { path: 'app-intro', component: IntroComponent },
+  { path: 'app-product', component: ProductComponent },
+  { path: 'app-aboutus', component: AboutusComponent },
 
-  { path:'', redirectTo: '', pathMatch: 'full' }
+
+  { path:'', redirectTo: '/', pathMatch: 'full' }
 ]
 
 @NgModule({
@@ -27,8 +30,8 @@ const appRoutes: Routes=[
     MainComponent,
     SliderComponent,
     IntroComponent,
-    CardsComponent,
-    GallaryComponent
+    ProductComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
