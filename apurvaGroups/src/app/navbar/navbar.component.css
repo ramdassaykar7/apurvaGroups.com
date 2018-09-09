@@ -1,0 +1,17 @@
+.my-nav{
+    position: absolute;
+    width: 100%;
+    background: #0005;
+    z-index: 999;
+}
+a{
+    color: white!important;
+}
+
+.navbar-brand{
+    margin-left: 200px;
+}
+
+.navbar-nav{
+    margin-left: 50px;
+}
