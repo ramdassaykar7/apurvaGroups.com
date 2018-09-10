@@ -1,14 +1,17 @@
 .navbar{
     width: 100%;
-    background: #0005;
+    background: rgba(250, 72, 72, 0.877);
     z-index: 999;
 }
 a{
     color: white!important;
+    font-size: 25px;
 }
 
 .navbar-brand{
-    margin-left: 200px;
+    margin-left: 300px;
+    font-family: 'Droid Serif', serif;
+    font-size: 30px;
 }
 
 .navbar-nav{
@@ -16,7 +19,6 @@ a{
 }
 a:hover
 {
-	background: #7de2cc;
     color: #d65443;
-    font-size: 25px;
+    font-size: 30px;
 }
