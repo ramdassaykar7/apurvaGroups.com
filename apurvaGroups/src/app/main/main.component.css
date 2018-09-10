@@ -1,0 +1,8 @@
+.top-grids, .middle-grid,.bottom-grid{
+    display: flex;
+}
+
+.bottom-grid img{
+    width: 280px;
+    height: 250px;
+}
