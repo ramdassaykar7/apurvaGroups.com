@@ -1,4 +1,4 @@
- <nav class="navbar fixed-top navbar-expand-lg navbar-light top-fixed">
+ <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light top-fixed">
     <a class="navbar-brand" routerLink="/app-main">Apurva</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,4 +20,46 @@
       
  
     </div>
-  </nav>
+  </nav> -->
+
+
+
+
+
+  <!-- Header -->
+
+	<header class="header">
+		<div class="header_content">
+
+			<!-- Logo -->
+			<div class="logo_container d-flex flex-column align-items-center justify-content-center">
+				<div class="logo">
+					<a routerLink="/app-main" class="text-center">
+						<!-- <div class="logo_subtitle">Apurv</div> -->
+						<div class="logo_title">Apurv Groups</div>
+					
+					</a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_inner d-flex flex-row align-items-center justify-content-start">
+							<nav class="main_nav">	
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Home</span></div></a></li>
+									<li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/app-aboutus"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>About Us</span></div></a></li>
+									<li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/app-product"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Services</span></div></a></li>
+									<li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/app-testimonials"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Testimonials</span></div></a></li>
+									<li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/app-gallery"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Gallery</span></div></a></li>
+									   <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/app-contact"><div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Contact</span></div></a></li>
+								</ul>
+							</nav>
+							<!-- <a href="#" class="button_container header_button ml-auto"><div class="button text-center"><span>Book Your Stay</span></div></a> -->
+							<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>

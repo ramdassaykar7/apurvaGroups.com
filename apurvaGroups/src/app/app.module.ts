@@ -10,13 +10,15 @@ import { SliderComponent } from './main/slider/slider.component';
 import { IntroComponent } from './main/intro/intro.component';
 import { ProductComponent } from './main/product/product.component';
 import { AboutusComponent } from './main/aboutus/aboutus.component';
-
+import { SearchBarComponent} from './main/search-bar/search-bar.component';
+import { MinSliderComponent } from './main/min-slider/min-slider.component'
 
 const appRoutes: Routes=[
   { path: 'app-main', component: MainComponent },
   { path: 'app-intro', component: IntroComponent },
   { path: 'app-product', component: ProductComponent },
   { path: 'app-aboutus', component: AboutusComponent },
+  { path: '', component: SliderComponent },
 
 
   { path:'', redirectTo: '/', pathMatch: 'full' }
@@ -31,7 +33,9 @@ const appRoutes: Routes=[
     SliderComponent,
     IntroComponent,
     ProductComponent,
-    AboutusComponent
+    AboutusComponent,
+    SearchBarComponent,
+    MinSliderComponent
   ],
   imports: [
     BrowserModule,
